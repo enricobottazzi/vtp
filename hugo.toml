@@ -1,0 +1,56 @@
+baseURL = 'https://example.com'
+languageCode = 'en-us'
+title = 'your-title'
+theme = 'drishtikon'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[params]
+    # Uncomment if you have a logo image
+    # logo = "/path-to-your-logo"
+
+    # Profile section for homepage
+    profilePhoto = "/path-to-your-profile-photo"
+    profileDescription = """Add a profile description."""
+    profileUpdates = "Add your updates."
+    github = "https://github.com/yourusername"
+    email = "mailto:your.email@example.com"
+    linkedin = "https://www.linkedin.com/"
+    pinterest = "https://www.pinterest.com/"
+    cv = "/path-to-your-cv"
+    math = true
+
+    # Uncomment if you want to customize the colors
+    # backgroundColor = "#f9dc90"
+    # linksColor = "#805690"
+    # textColor = "#333"
+    # fontFamily = "Inter"
+    # tableHeaderColor = "#d46f93"
+    # tableContentColor = "#f89e9d"
+    # tableRowHoverColor = "#ffbbba"
+    # writingCardBackground = "#fdf1cd"    
+
+[menu]
+    [[menu.main]]
+        name = "posts"
+        url = "/posts/"
+        weight = 10
+    [[menu.main]]
+        name = "writings"
+        url = "/writings/"
+        weight = 20
+    [[menu.main]]
+        name = "photos"
+        url = "/photos/"
+        weight = 30
