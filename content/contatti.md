@@ -19,9 +19,8 @@ You can find me on:
 
 ---
 
-## Response Time
+#Via San Giorgio 6N, Bergamo#
 
-I typically respond to emails within 24-48 hours. For urgent matters, please indicate so in your message.
 
 ---
 
@@ -29,4 +28,4 @@ I typically respond to emails within 24-48 hours. For urgent matters, please ind
 
 ---
 
-*Looking forward to hearing from you!*
+*Svincolarsi dalle condizioni, dalle pose, dalle posizioni *
