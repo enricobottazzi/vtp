@@ -6,7 +6,7 @@ draft: false
 You can find me on:
 
 - **GitHub:** [Your GitHub Profile](https://github.com/)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/)
+- **LinkedIn:** [Profilo Linkedin](https://www.linkedin.com/in/vittorio-ponti-41857b188/)
 - **Other Platform:** [Your Profile Link](https://example.com)
 
 ---
