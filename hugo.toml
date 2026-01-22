@@ -1,6 +1,6 @@
-baseURL = 'https://example.com'
+baseURL = 'https://vittorioponti.com'
 languageCode = 'en-us'
-title = 'your-title'
+title = 'Vittorio Ponti'
 theme = 'drishtikon'
 
 [markup]
@@ -21,21 +21,19 @@ theme = 'drishtikon'
     # logo = "/path-to-your-logo"
 
     # Profile section for homepage
-    profilePhoto = "/path-to-your-profile-photo"
-    profileDescription = """Add a profile description."""
-    profileUpdates = "Add your updates."
-    github = "https://github.com/yourusername"
-    email = "mailto:your.email@example.com"
+    profilePhoto = "/assets/profile.jpg"
+    profileDescription = """"""
+    profileUpdates = """Add your updates. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
+    email = "mailto:vittorio.ponti34@gmail.com"
     linkedin = "https://www.linkedin.com/"
-    pinterest = "https://www.pinterest.com/"
-    cv = "/path-to-your-cv"
     math = true
 
     # Uncomment if you want to customize the colors
     # backgroundColor = "#f9dc90"
     # linksColor = "#805690"
     # textColor = "#333"
-    # fontFamily = "Inter"
+    fontFamily = "Lora"
     # tableHeaderColor = "#d46f93"
     # tableContentColor = "#f89e9d"
     # tableRowHoverColor = "#ffbbba"
@@ -43,14 +41,14 @@ theme = 'drishtikon'
 
 [menu]
     [[menu.main]]
-        name = "posts"
-        url = "/posts/"
+        name = "blog"
+        url = "/blog/"
         weight = 10
     [[menu.main]]
-        name = "writings"
-        url = "/writings/"
+        name = "cv"
+        url = "/cv/"
         weight = 20
     [[menu.main]]
-        name = "photos"
-        url = "/photos/"
+        name = "contatti"
+        url = "/contatti/"
         weight = 30
