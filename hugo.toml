@@ -25,7 +25,8 @@ theme = 'drishtikon'
     # Profile section for homepage
     profilePhoto = "/assets/foto_convertita.png"
     profileDescription = """"""
-    profileUpdates = """Mi chiamo Vittorio Ponti, sono psicologo e specializzando in psicoterapia sistemico-dialogica."""
+    profileUpdates = """Mi chiamo Vittorio Ponti, sono psicologo e specializzando in psicoterapia sistemico-dialogica.
+    Mi occupo di disturbi d'ansia, dell'umore e di personalità"""
     email = "mailto:vittorio.ponti34@gmail.com"
     linkedin = "https://www.linkedin.com/"
     math = true
