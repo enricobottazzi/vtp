@@ -28,4 +28,4 @@ You can find me on:
 
 ---
 
-*Svincolarsi dalle condizioni, dalle pose, dalle posizioni *
+*Svincolarsi dalle condizioni, dalle pose, dalle posizioni*
