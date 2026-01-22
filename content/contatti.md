@@ -6,14 +6,15 @@ draft: false
 You can find me on:
 
 - **GitHub:** [Your GitHub Profile](https://github.com/)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/)
+- **LinkedIn:** [Profilo Linkedin](https://www.linkedin.com/in/vittorio-ponti-41857b188/)
 - **Other Platform:** [Your Profile Link](https://example.com)
 
 ---
 
-## Location
+## Dove ricevo
 
-*Add your location or timezone information here if you'd like*
+*Via del Carroccio 6B, Bergamo*
+![Uploading IMG_1113.PNG…]()
 
 ---
 
