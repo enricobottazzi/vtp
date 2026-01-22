@@ -25,15 +25,7 @@ I typically respond to emails within 24-48 hours. For urgent matters, please ind
 
 ---
 
-## Let's Connect
-
-Whether you're interested in:
-- Professional opportunities
-- Collaboration on projects
-- Technical discussions
-- Or just want to chat
-
-I'm always open to connecting with like-minded individuals!
+## [Prenota un incontro](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti/booking/places?specialityId=5954&telehealth=false&bookingFunnelSource=profile)
 
 ---
 
