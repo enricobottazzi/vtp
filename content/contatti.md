@@ -3,23 +3,7 @@ title: "Contatti"
 draft: false
 ---
 
-Feel free to reach out if you'd like to connect, collaborate, or just say hello!
-
----
-
-## Contact Information
-
-**Email:** [vittorio.ponti34@gmail.com](mailto:vittorio.ponti34@gmail.com)
-
-**LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/)
-
-**Website:** [vittorioponti.com](https://vittorioponti.com)
-
----
-
-## Social Media
-
-You can also find me on:
+You can find me on:
 
 - **GitHub:** [Your GitHub Profile](https://github.com/)
 - **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/)
