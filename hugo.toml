@@ -39,11 +39,10 @@ theme = 'drishtikon'
     # tableRowHoverColor = "#ffbbba"
     # writingCardBackground = "#fdf1cd"    
 
+[permalinks]
+    posts = "/blog/:slug/"
+
 [menu]
-    [[menu.main]]
-        name = "blog"
-        url = "/blog/"
-        weight = 10
     [[menu.main]]
         name = "cv"
         url = "/cv/"
