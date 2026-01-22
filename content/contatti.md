@@ -13,7 +13,7 @@ You can find me on:
 
 ## Dove ricevo
 
-#*Via del Carroccio 6B, Bergamo*#
+#Via del Carroccio 6B, Bergamo#
 <img width="200" height="100" alt="IMG_1113" src="https://github.com/user-attachments/assets/48d9b3e9-5603-471a-9d4d-bd91d261b047" />
 
 
