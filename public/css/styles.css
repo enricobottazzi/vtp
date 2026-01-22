@@ -168,14 +168,14 @@ blockquote {
   height: 200px;
   object-fit: cover;
   border-radius: 100%;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0.5rem;
 }
 
 .profile-description {
   max-width: 100%;
   line-height: 1.6;
   text-align: center;
-  margin: 0 auto;
+  margin: -0.5rem auto 0;
 }
 
 .profile-description pre {
@@ -212,7 +212,7 @@ blockquote {
 }
 
 .year-heading-homepage {
-  margin: 0rem 0 0rem;
+  margin: 2rem 0 0rem;
   color: var(--text-color);
 
 }
@@ -414,6 +414,19 @@ blockquote {
 .post-content p{
     padding: 0.5 rem;
     margin-bottom: 1.2rem;
+}
+
+.post-content hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-top: 1px solid var(--text-color);
+    opacity: 0.3;
+}
+
+.post-content p + ul,
+.post-content p + ol {
+    margin-top: -0.7rem;
 }
 
 .post-content blockquote p{
@@ -839,11 +852,6 @@ body .post-content table {
   -webkit-mask-position: center;
 }
 
-.github-icon {
-  mask-image: url('/icons/github.svg');
-  -webkit-mask-image: url('/icons/github.svg');
-}
-
 .email-icon {
   mask-image: url('/icons/mail.svg');
   -webkit-mask-image: url('/icons/mail.svg');
@@ -852,14 +860,4 @@ body .post-content table {
 .linkedin-icon {
   mask-image: url('/icons/linkedin.svg');
   -webkit-mask-image: url('/icons/linkedin.svg');
-}
-
-.pinterest-icon {
-  mask-image: url('/icons/pinterest.svg');
-  -webkit-mask-image: url('/icons/pinterest.svg');
-}
-
-.cv-icon {
-  mask-image: url('/icons/file-text.svg');
-  -webkit-mask-image: url('/icons/file-text.svg');
 }

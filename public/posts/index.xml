@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Vittorio Ponti</title>
+    <link>https://vittorioponti.com/posts/</link>
+    <description>Recent content in Posts on Vittorio Ponti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jan 2026 10:00:00 +0100</lastBuildDate><atom:link href="https://vittorioponti.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Blog Post</title>
+      <link>https://vittorioponti.com/blog/my-first-blog-post/</link>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0100</pubDate>
+      
+      <guid>https://vittorioponti.com/blog/my-first-blog-post/</guid>
+      <description>This is my first blog post on this website! I&amp;rsquo;m excited to share my thoughts and experiences with you.
+Getting Started Creating a blog has been an interesting journey. There are so many platforms and tools available, but I decided to go with Hugo for its simplicity and speed.
+Why Hugo? Hugo is a static site generator that offers:
+Speed: It&amp;rsquo;s incredibly fast at building sites Simplicity: Easy to use and configure Flexibility: Highly customizable themes and layouts Markdown Support: Write content in Markdown, which is simple and clean What&amp;rsquo;s Next?</description>
+    </item>
+    
+  </channel>
+</rss>

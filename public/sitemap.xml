@@ -2,10 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://vittorioponti.com/blog/my-first-blog-post/</loc>
+    <lastmod>2026-01-15T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://vittorioponti.com/posts/</loc>
+    <lastmod>2026-01-15T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https://vittorioponti.com/</loc>
+    <lastmod>2026-01-15T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://vittorioponti.com/categories/</loc>
+  </url><url>
+    <loc>https://vittorioponti.com/contatti/</loc>
+  </url><url>
+    <loc>https://vittorioponti.com/cv/</loc>
+  </url><url>
+    <loc>https://vittorioponti.com/tags/</loc>
   </url>
 </urlset>
