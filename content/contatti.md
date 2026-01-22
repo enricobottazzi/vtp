@@ -11,9 +11,10 @@ You can find me on:
 
 ---
 
-## Location
+## Dove ricevo
 
-*Add your location or timezone information here if you'd like*
+*Via del Carroccio 6B, Bergamo*
+![Uploading IMG_1113.PNG…]()
 
 ---
 
