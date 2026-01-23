@@ -7,7 +7,7 @@ You can find me on:
 
 - **GitHub:** [Your GitHub Profile](https://github.com/)
 - **LinkedIn:** [Profilo Linkedin](https://www.linkedin.com/in/vittorio-ponti-41857b188/)
-- **Other Platform:** [Your Profile Link](https://example.com)
+- **Altri siti:** [Psicologi Online](https://www.psicologionline.net/psicologi-psicoterapeuti/94616-vittorio-ponti)
 
 ---
 
