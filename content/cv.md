@@ -3,24 +3,30 @@ title: "Curriculum Vitae"
 draft: false
 ---
 
-## Professional Summary
+## Profilo professionale 
 
-Add a brief professional summary here. This section should highlight your key skills, experience, and career objectives in 2-3 sentences.
+Faccio lo psicologo; ho esperienza in ambito clinico e organizzativo. Mi occupo di stress, ansia e difficoltà relazionali, accompagnando le persone nella comprensione delle dinamiche che vivono nei diversi contesti della loro vita. Il mio lavoro si fonda sul dialogo come strumento di cambiamento.
 
 ---
 
-## Education
+## Istruzione
 
-### Degree Name 
-**Institution Name**  
-*Location* | *Start Date - End Date*
+### Scuola di Psicoterapia
+**SPSD - Scuola di Psicoterapia Sistemico-Dialogica**  
+*Bergamo* | *gen 2025 - in corso*
 - Relevant coursework or achievements
 
 
-### Degree Name
-**Institution Name**  
-*Location* | *Start Date - End Date*
+### Laurea Magistrale in Psicologia
+**Università degli studi di Trento**  
+*Trento* | *set 2019 - dic 2021*
 - Relevant coursework or achievements
+
+
+ ### Laurea Triennale in Scienze e Tecniche Psicologiche
+**Università degli studi di Bergamo**  
+*Bergamo* | *set 2016 - set 2019*
+- Relevant coursework or achievements 
 
 ---
 
