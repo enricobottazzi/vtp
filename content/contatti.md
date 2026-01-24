@@ -5,22 +5,23 @@ draft: false
 
 You can find me on:
 
-- **GitHub:** [Your GitHub Profile](https://github.com/)
+- **Doctolib:** [Doctolib](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti)
 - **LinkedIn:** [Profilo Linkedin](https://www.linkedin.com/in/vittorio-ponti-41857b188/)
-- **Altri siti:** [Psicologi Online](https://www.psicologionline.net/psicologi-psicoterapeuti/94616-vittorio-ponti)
+- **Psicologi Italia:** [Psicologi Italia](https://www.psicologi-italia.it/psicologo/vittorio-ponti.html)
+- **Psicologi Online:** [Psicologi Online](https://www.psicologionline.net/psicologi-psicoterapeuti/94616-vittorio-ponti)
 
 ---
 
 ## Dove ricevo
 
-### Via del Carroccio 6B, Bergamo
+### Studio privato, Via del Carroccio 6B, Bergamo
 
 <img width="150" height="200" alt="IMG_1113" src="https://github.com/user-attachments/assets/48d9b3e9-5603-471a-9d4d-bd91d261b047" />
 
 
 ---
 
-### Via San Giorgio 6N, Bergamo
+### Methodo Medical Center, Via San Giorgio 6N, Bergamo
 
 
 ---
@@ -29,4 +30,4 @@ You can find me on:
 
 ---
 
-*Svincolarsi dalle condizioni, dalle pose, dalle posizioni*
+*Svincolarsi dalle convinzioni, dalle pose, dalle posizioni*
