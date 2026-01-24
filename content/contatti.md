@@ -14,14 +14,15 @@ mi puoi trovare anche qui:
 
 ## Dove ricevo
 
-### Studio privato, Via del Carroccio 6B, Bergamo
+#### Studio privato, Via del Carroccio 6B, Bergamo
 
-<img width="175" height="200" alt="IMG_1113" src="https://github.com/user-attachments/assets/48d9b3e9-5603-471a-9d4d-bd91d261b047" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/8927c94c-b519-4768-a526-8042d7f9ecab" />
+
 
 
 ---
 
-### Methodo Medical Center, Via San Giorgio 6N, Bergamo
+#### Methodo Medical Center, Via San Giorgio 6N, Bergamo
 
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/f57a1b4b-3a30-4ec3-ae37-593a253c690e" />
 
