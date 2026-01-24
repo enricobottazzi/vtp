@@ -1,6 +1,6 @@
 ---
 title: "Chi sono"
-date: 2026-01-22T10:00:00+01:00
+date: 2026-01-24T10:00:00+01:00
 draft: false
 ---
 
@@ -18,7 +18,7 @@ Sono profondamente convinto del potere del dialogo come strumento di costruzione
 ## Perchè un blog?
 
 Ho pensato di fare qualcosa che potesse essere nelle mie corde, ovvero provare a scrivere di svariati argomenti riguardanti la psicologia e non. Argomenti che trovo interessanti e che spero anche voi troviate interessanti. 
-L'idea nasce da un suggerimento di un mio caro amico, lo stesso che mi ha aiutato con la creazione di questo sito-blog (grazie le).
+L'idea nasce da un suggerimento di un mio caro amico, lo stesso che mi ha aiutato con la creazione di questo sito-blog. Grazie Gusti.
 Inoltre, non sono molto bravo a postare contenuti sui social e in ogni caso non mi sentirei a mio agio. 
 Mi piacerebbe collegare temi legati a competenze delle persone che mi circondano con temi legati alla psicologia e alle relazioni umane. 
 Non so ancora se mi farò aiutare dall'IA, credo che possa essere una grande risorsa e che possa dare una mano, ma prometto che mi impegnerò a scrivere di mio pugno. 
