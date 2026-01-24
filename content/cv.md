@@ -32,25 +32,25 @@ Faccio lo psicologo; ho esperienza in ambito clinico e organizzativo. Mi occupo 
 
 ## Professional Experience
 
-### Job Title
-**Company Name**  
-*Location* | *Start Date - End Date*
+### Psicologo Clinico
+**Autonomo**  
+*Bergamo* | *ott 2024 - in corso*
 - Key responsibility or achievement
 - Key responsibility or achievement
 - Key responsibility or achievement
 
-### Job Title
-**Company Name**  
-*Location* | *Start Date - End Date*
+### Human Consultant
+**Progrexus srl*  
+*Bergamo* | *lug 2022 - in corso*
 - Key responsibility or achievement
 - Key responsibility or achievement
 
 ---
 
 ## Languages
-- Language 1: Proficiency level
-- Language 2: Proficiency level
-
+- Italiano: Madrelingue
+- Spagnolo: C1
+- Inglese: B2
 ---
 
 *Last updated: January 2026*
