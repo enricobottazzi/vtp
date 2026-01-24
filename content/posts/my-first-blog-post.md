@@ -1,35 +1,19 @@
 ---
-title: "My First Blog Post"
-date: 2026-01-15T10:00:00+01:00
+title: "2026 - propositi per l'anno nuovo "
+date: 2026-01-24T10:00:00+01:00
 draft: false
 ---
 
-This is my first blog post on this website! I'm excited to share my thoughts and experiences with you.
+Con l’inizio di un nuovo anno la tendenza è fare nuovi propositi: in fondo, chi non li fa?
+Pensavo però che alcune cose (come le relazioni, il fluire degli eventi o i cambiamenti improvvisi) non siano prevedibili e rendano le nostre giornate, le settimane e, alla fine, l’intero anno non del tutto controllabili o pianificabili.
 
-## Getting Started
+Quindi, quanto riusciamo davvero a portare avanti ciò che ci promettiamo a inizio anno? E quanto, invece, ciò che ci prefiguriamo diventa una fonte di stress più che una reale motivazione?
+La risposta a queste domande, per quanto mi riguarda, è… non lo so.
 
-Creating a blog has been an interesting journey. There are so many platforms and tools available, but I decided to go with Hugo for its simplicity and speed.
+Le relazioni, le emozioni, i vincoli che sentiamo e non sempre vediamo sono i temi che amo trattare nella stanza di terapia con i miei pazienti.
+Attraverso il dialogo cerchiamo insieme un modo per capire dove siamo, come stiamo e quanto siamo attivi nelle nostre posizioni, scoprendo anche nuove opportunità che prima non riuscivamo a vedere. 
 
-## Why Hugo?
-
-Hugo is a static site generator that offers:
-
-- **Speed**: It's incredibly fast at building sites
-- **Simplicity**: Easy to use and configure
-- **Flexibility**: Highly customizable themes and layouts
-- **Markdown Support**: Write content in Markdown, which is simple and clean
-
-## What's Next?
-
-I plan to write about various topics including:
-
-- Web development
-- Technology trends
-- Personal projects
-- And much more!
-
-Stay tuned for more content coming soon. If you have any suggestions or topics you'd like me to cover, feel free to reach out!
 
 ---
 
-*Thank you for reading!*
+*Sii Felice*
