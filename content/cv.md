@@ -35,7 +35,7 @@ Faccio lo psicologo; ho esperienza in ambito clinico e organizzativo. Mi occupo 
 In ambito clinico svolgo incontri di supporto psicologico individuali, di coppia e familiari sia presso uno studio privato sia presso il centro clinico Methodo Medical Center. Mi occupo principalmente di disturbi d'ansia, dell'umore, di personalità e di identità. Inoltre ho avuto modo di trattare temi come disturbi alimentari, dipendenze tecnologiche, da sostanze e dipendenza affettiva
 
 ### Human Consultant
-*Progrexus srl*  
+**Progrexus srl** 
 *Bergamo* | *lug 2022 - in corso*
 Mi occupo di supporto psicologico individuale e di gruppo, facilitando processi di cambiamento e sviluppo personale attraverso un approccio sistemico. Lavoro sulla gestione dello stress, il potenziamento delle risorse e il miglioramento delle dinamiche relazionali nei diversi contesti di vita
 
