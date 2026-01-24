@@ -23,6 +23,8 @@ You can find me on:
 
 ### Methodo Medical Center, Via San Giorgio 6N, Bergamo
 
+<img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/f57a1b4b-3a30-4ec3-ae37-593a253c690e" />
+
 
 ---
 
