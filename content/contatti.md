@@ -3,7 +3,7 @@ title: "Contatti"
 draft: false
 ---
 
-You can find me on:
+mi puoi trovare anche qui:
 
 - **Doctolib:** [Doctolib](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti)
 - **LinkedIn:** [Profilo Linkedin](https://www.linkedin.com/in/vittorio-ponti-41857b188/)
