@@ -55,7 +55,7 @@ a:hover {
 .top-nav {
     display: flex;
     position: static;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
     background-color: var(--background-color);
@@ -71,6 +71,7 @@ a:hover {
     gap: 1.5rem;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -138,21 +139,64 @@ blockquote {
     padding: 0 2rem;
 }
 
-.homepage-columns {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 3rem;
+/* Homepage specific container styling for vertical centering */
+.container.homepage-container {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Left column - profile */
-.left-column {
+/* Homepage navigation menu */
+.homepage-nav {
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.homepage-nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    opacity: 0.7;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+    text-transform: lowercase;
+}
+
+.homepage-nav-link:hover {
+    opacity: 1;
+}
+
+.homepage-nav-link.active {
+    opacity: 1;
+    font-weight: 700;
+}
+
+/* Centered profile section */
+.profile-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .profile {
@@ -168,14 +212,14 @@ blockquote {
   height: 200px;
   object-fit: cover;
   border-radius: 100%;
-  margin: 0 auto 0.5rem;
+  margin: 0 auto 1.5rem;
 }
 
 .profile-description {
-  max-width: 100%;
+  max-width: 350px;
   line-height: 1.6;
   text-align: center;
-  margin: -0.5rem auto 0;
+  margin: 0 auto;
 }
 
 .profile-description pre {
@@ -206,9 +250,11 @@ blockquote {
   max-width: 200px;
 }
 
-/* Right column styles */
-.right-column{
-
+/* Posts section styles */
+.posts-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .year-heading-homepage {
@@ -282,12 +328,14 @@ blockquote {
 
 
 @media (max-width: 768px) {
-  .homepage-columns {
-    grid-template-columns: 1fr;
+  .homepage-centered {
+    padding: 0 1rem;
   }
-  .profile-container {
-    position: static;
+  .profile-section {
     margin-bottom: 2rem;
+  }
+  .posts-section {
+    max-width: 100%;
   }
   .post-item-homepage {
     display: block;

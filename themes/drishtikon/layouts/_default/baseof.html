@@ -4,7 +4,9 @@
 {{ partial "head.html" . }}
 
 <body>
+{{ if not .IsHome }}
 {{ partial "header.html" . }}
+{{ end }}
 
 <main>
     {{ block "main" . }}{{ end }}
