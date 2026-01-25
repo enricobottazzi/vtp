@@ -1,12 +1,20 @@
-<nav class="top-nav">
-        <a href="/" class="site-title">
-            {{ .Site.Title }}
-        </a>
-        <div class="nav-links">
-            {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }} active {{ end }}">
-            {{ .Name }}
+<header class="homepage-header">
+    <div class="homepage-logo">
+        {{ if .Site.Params.logo }}
+            <a href="/" class="logo-link">
+                <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" class="logo-image">
             </a>
-            {{ end }}
-        </div>    
-</nav>
+        {{ else }}
+            <a href="/" class="logo-link site-title">
+                {{ .Site.Title }}
+            </a>
+        {{ end }}
+    </div>
+    <nav class="homepage-nav">
+        <div class="homepage-nav-links">
+            <a href="/posts/" class="homepage-nav-link {{ if eq .RelPermalink "/posts/" }}active{{ end }}">blog</a>
+            <a href="/cv/" class="homepage-nav-link {{ if eq .RelPermalink "/cv/" }}active{{ end }}">cv</a>
+            <a href="/contatti/" class="homepage-nav-link {{ if eq .RelPermalink "/contatti/" }}active{{ end }}">contatti</a>
+        </div>
+    </nav>
+</header>

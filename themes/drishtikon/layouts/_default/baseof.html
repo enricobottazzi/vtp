@@ -5,7 +5,9 @@
 
 <body>
 {{ if not .IsHome }}
-{{ partial "header.html" . }}
+<div class="container header-container">
+    {{ partial "header.html" . }}
+</div>
 {{ end }}
 
 <main>

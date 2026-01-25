@@ -139,6 +139,11 @@ blockquote {
     padding: 0 2rem;
 }
 
+/* Container for header on non-home pages */
+.container.header-container {
+    padding-top: 2rem;
+}
+
 /* Homepage specific container styling for vertical centering */
 .container.homepage-container {
     min-height: calc(100vh - 200px);
@@ -412,6 +417,7 @@ blockquote {
 .posts-list-container {
   max-width: 75%;
   margin: 0 auto;
+  padding: 2rem 0;
 }
 
 .year-group  {
