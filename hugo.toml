@@ -24,12 +24,8 @@ theme = 'drishtikon'
 
     # Profile section for homepage
     profilePhoto = "/assets/foto_convertita.png"
-    profileDescription = """"""
-    profileUpdates = """Sono Vittorio Ponti, psicologo iscritto all’Ordine degli Psicologi della Lombardia. Dopo la laurea in Psicologia presso l’Università di Trento, ho maturato esperienza sia in ambito clinico sia organizzativo, lavorando con persone, coppie e gruppi.
-
-Mi occupo di supporto psicologico su tematiche quali stress, disturbi d’ansia e difficoltà relazionali, accompagnando le persone nella comprensione delle dinamiche che attraversano nei diversi contesti della loro vita, personali e lavorativi. Lavoro attraverso percorsi individuali, interventi di coppia e incontri di gruppo.
-
-Il mio approccio è di tipo sistemico-dialogico e si fonda sul dialogo come strumento di costruzione di significato. Considero la persona all’interno delle relazioni e dei contesti che abita, valorizzando l’esperienza soggettiva come punto di partenza per costruire nuove letture e possibilità di cambiamento."""
+    profileDescription = """Sono Vittorio Ponti, psicologo iscritto all’Ordine degli Psicologi della Lombardia. Dopo la laurea in Psicologia presso l’Università di Trento, ho maturato esperienza sia in ambito clinico sia organizzativo, lavorando con persone, coppie e gruppi."""
+    profileUpdates = """"""
     email = "mailto:vittorio.ponti34@gmail.com"
     linkedin = "https://www.linkedin.com/"
     math = true
