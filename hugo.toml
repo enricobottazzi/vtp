@@ -19,8 +19,8 @@ theme = 'drishtikon'
     dir = ':cacheDir/images'
 
 [params]
-    # Uncomment if you have a logo image
-    # logo = "/path-to-your-logo"
+    # Logo image
+    logo = "/assets/logo.svg"
 
     # Profile section for homepage
     profilePhoto = "/assets/foto_convertita.png"

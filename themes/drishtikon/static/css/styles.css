@@ -38,12 +38,12 @@ a {
 }
 
 a.site-title{
-    font-size: 24px;
+    font-size: 32px;
 }
 
 @media (max-width: 768px){
     a.site-title {
-        font-size: 16px;
+        font-size: 24px;
     }
 }
 
@@ -143,8 +143,10 @@ blockquote {
 .container.homepage-container {
     min-height: calc(100vh - 200px);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 2rem;
 }
 
 .homepage-centered {
@@ -152,15 +154,32 @@ blockquote {
     flex-direction: column;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 6rem auto 0;
+    width: 100%;
+}
+
+/* Homepage header with navigation and logo */
+.homepage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 4rem auto 1rem;
+    padding: 0 2rem;
+}
+
+/* Homepage logo */
+.homepage-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* Homepage navigation menu */
 .homepage-nav {
-    margin-bottom: 2rem;
-    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .homepage-nav-links {
@@ -168,7 +187,24 @@ blockquote {
     gap: 1.5rem;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+    opacity: 1;
+}
+
+.logo-link:hover {
+    opacity: 1;
+}
+
+.logo-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
 }
 
 .homepage-nav-link {
@@ -176,6 +212,7 @@ blockquote {
     color: var(--text-color);
     opacity: 0.7;
     font-weight: 600;
+    font-size: 24px;
     transition: opacity 0.3s ease;
     text-transform: lowercase;
 }
@@ -328,6 +365,19 @@ blockquote {
 
 
 @media (max-width: 768px) {
+  .homepage-header {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .homepage-nav-links {
+    gap: 1rem;
+  }
+  .logo-image {
+    width: 60px;
+    height: 60px;
+  }
   .homepage-centered {
     padding: 0 1rem;
   }
