@@ -12,3 +12,7 @@
 - Vai nella cartella `content/posts` e aggiungi un nuovo file markdown con il nome del `title.md`.
 - Copia tutto il contenuto e incolla nel file markdown.
 - Modifica il titolo, la data e il contenuto del file markdown.
+
+### Modificare contatti e cv 
+
+- Modifica `content/contatti.md` o `content/cv.md` per aggiungere o modificare il contenuto.
