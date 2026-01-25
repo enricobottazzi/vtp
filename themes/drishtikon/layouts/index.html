@@ -1,37 +1,35 @@
 {{ define "main" }}
-<div class = "container">
-    <div class="homepage-columns">
-        <!-- Left Column - Profile -->
-        <div class="left-column">
+<div class = "container homepage-container">
+    <!-- Header with Logo and Navigation -->
+    <header class="homepage-header">
+        <div class="homepage-logo">
+            {{ if .Site.Params.logo }}
+                <a href="/" class="logo-link">
+                    <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" class="logo-image">
+                </a>
+            {{ else }}
+                <a href="/" class="logo-link site-title">
+                    {{ .Site.Title }}
+                </a>
+            {{ end }}
+        </div>
+        <nav class="homepage-nav">
+            <div class="homepage-nav-links">
+                <a href="/posts/" class="homepage-nav-link {{ if eq .RelPermalink "/posts/" }}active{{ end }}">blog</a>
+                <a href="/cv/" class="homepage-nav-link {{ if eq .RelPermalink "/cv/" }}active{{ end }}">cv</a>
+                <a href="/contatti/" class="homepage-nav-link {{ if eq .RelPermalink "/contatti/" }}active{{ end }}">contatti</a>
+            </div>
+        </nav>
+    </header>
+    <div class="homepage-centered">
+        <!-- Centered Profile Section -->
+        <div class="profile-section">
             <div class="profile">
                 <img src="{{ .Site.Params.profilePhoto | default "/images/pfp.jpg" }}" alt="Profile Photo" class="profile-photo">
             </div>
             <div class="profile-description">
-                <p> {{ .Site.Params.profileDescription | markdownify }} </p>
+                <p> {{ .Site.Params.profileDescription | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." | markdownify }} </p>
             </div>
-        </div>
-        <!-- Right Column - Posts -->
-        <div class="right-column">
-            <div>
-                <p>{{ .Site.Params.profileUpdates | markdownify }}</p>
-            </div>
-      {{ $posts := where site.RegularPages "Type" "posts" }}
-      {{ range ($posts.ByDate.Reverse).GroupByDate "2006" }}
-            <div class="year-group">
-                <h1 class="year-heading-homepage">{{ .Key }}</h1> <!-- Year -->
-                <ul class="post-list-homepage">
-                    {{ range first 5 .Pages }}
-                    <li class="post-item-homepage">
-                        <span class = "post-title-homepage">
-                            <a href="{{ .RelPermalink }}" class="post-title-homepage-link">{{ .Title }}</a>
-                        </span>
-                        <span class="dot-leader"></span>
-                        <span class="post-date-homepage">{{ .Date.Format "02.01" }}</span>
-                    </li>
-                    {{ end }}
-                </ul>
-            </div>
-            {{ end }}
         </div>
     </div>
 </div>

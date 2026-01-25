@@ -1,13 +1,12 @@
 <nav class="top-nav">
+    <div class="nav-links">
         <a href="{{ .Site.BaseURL }}" class="site-title">
             {{ .Site.Title }}
         </a>
-    <div class="nav-links">
         {{ range .Site.Menus.main }}
         <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }} active {{ end }}">
         {{ .Name }}
         </a>
         {{ end }}
     </div>
-
 </nav>

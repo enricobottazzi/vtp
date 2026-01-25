@@ -1,3 +1,17 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+[menu.main]
+  [[menu.main]]
+    name = "home"
+    url = "/"
+  [[menu.main]]
+    name = "blog"
+    url = "/posts/"
+  [[menu.main]]
+    name = "cv"
+    url = "/cv/"
+  [[menu.main]]
+    name = "contatti"
+    url = "/contatti/"
