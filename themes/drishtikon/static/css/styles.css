@@ -26,7 +26,7 @@ body {
     color: var(--text-color);
     background-color: var(--background-color);
     font-family: var(--font-family);
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
@@ -262,6 +262,7 @@ blockquote {
   line-height: 1.6;
   text-align: center;
   margin: 0 auto;
+  font-weight: 500;
 }
 
 .profile-description pre {
@@ -442,6 +443,7 @@ blockquote {
   text-decoration: none;
   opacity: 0.8;
   transition: background-size 0.3s ease;
+  font-weight: 600;
 }
 
 
@@ -453,6 +455,7 @@ blockquote {
   color: var(--text-color);
   white-space: nowrap;
   opacity: 0.75;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -503,10 +506,12 @@ blockquote {
 
 .post-header h1 {
   margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 .post-meta {
   color: color-mix(in srgb, var(--text-color) 66%, transparent);
+  font-weight: 600;
 }
 
 .post-content {
