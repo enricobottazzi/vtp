@@ -31,4 +31,4 @@ Quando la pigrizia non mi fermerà, pubblicherò contenuti
 
 ---
 
-*Sii felice*
+*Svincolarsi dalle convinzioni, dalle pose, dalle posizioni*
