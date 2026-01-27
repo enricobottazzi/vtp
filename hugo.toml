@@ -27,7 +27,7 @@ theme = 'drishtikon'
    profileDescription = """
 Sono Vittorio Ponti, psicologo iscritto all’Ordine degli Psicologi della Lombardia. Dopo la laurea in Psicologia presso l’Università di Trento, ho maturato esperienza sia in ambito clinico sia organizzativo. Lavoro con individui, coppie e gruppi. Mi occupo di temi come disturbi d'ansia, problematiche relazionali, dipendenza affettiva e difficoltà lavorative.
 
-[<span style='font-size:20px; display:inline-block; margin-top:20px;'>Prenota un appuntamento</span>](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti)
+[<span style='font-size:20px; display:inline-block; margin-top:20px; font-weight:bold;'>Prenota un appuntamento</span>](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti)
 """
 
 
