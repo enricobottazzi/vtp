@@ -20,7 +20,7 @@ theme = 'drishtikon'
 
 [params]
     # Logo image
-    logo = "/assets/logo.svg"
+    logo = "/assets/logo VP.png"
 
     # Profile section for homepage
     profilePhoto = "/assets/foto_convertita.png"
