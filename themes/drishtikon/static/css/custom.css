@@ -1,0 +1,9 @@
+/* Logo personalizzato */
+.header-logo img {
+    background-color: #f9dc90;  /* giallo del sito */
+    padding: 10px;               /* spazio intorno al logo */
+    border-radius: 12px;         /* angoli arrotondati */
+    width: 120px;                /* dimensione più grande */
+    height: auto;                /* mantiene proporzioni */
+    display: inline-block;
+}
