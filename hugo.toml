@@ -25,6 +25,10 @@ theme = 'drishtikon'
     # Profile section for homepage
     profilePhoto = "/assets/foto_convertita.png"
     profileDescription = """Sono Vittorio Ponti, psicologo iscritto all’Ordine degli Psicologi della Lombardia. Dopo la laurea in Psicologia presso l’Università di Trento, ho maturato esperienza sia in ambito clinico sia organizzativo. Lavoro con individui, coppie e gruppi. Mi occupo di temi come disturbi d'ansia, problematiche relazionali, dipendenza affettiva e difficoltà lavorative."""  
+    [params]
+    bookingText = "Prenota un appuntamento"
+    bookingURL = "https://www.doctolib.it/psicologo/bergamo/vittorio-ponti?pid=practice-731199&utm_source=google_appointment_redirect&utm_campaign=gmb&utm_medium=organic&hl=it-IT&gei=gcN4ae-lPLqI9u8P9s2auQY&rwg_token=AFd1xnEnGruH_8GsucpXdu4vfIExz2-trJ-hm2DPbgst0H6aCxM1OvcQSXpcz4Es5SlLT8aM3IpSkMDhiv3Y6kuOdqT5g-x0OQ%3D%3D"
+
     profileUpdates = """"""
     email = "mailto:vittorio.ponti34@gmail.com"
     linkedin = "https://www.linkedin.com/"
