@@ -1,7 +1,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    {{- /* Browser tab title: "Site | Page" with custom labels for key pages */ -}}
+    {{- $siteTitle := .Site.Title -}}
+    {{- $pageTitle := .Title -}}
+    {{- if .IsHome -}}
+      {{- $pageTitle = "Home" -}}
+    {{- else if eq .RelPermalink "/cv/" -}}
+      {{- $pageTitle = "Cv" -}}
+    {{- else if eq .RelPermalink "/contatti/" -}}
+      {{- $pageTitle = "Contatti" -}}
+    {{- else if and .IsSection (eq .Section "posts") -}}
+      {{- $pageTitle = "Blog" -}}
+    {{- end -}}
+    <title>{{ $siteTitle }}{{ with $pageTitle }} | {{ . }}{{ end }}</title>
 
     <!-- Favicon: use logo with explicit white background for visibility in browser tabs -->
     <link rel="icon" type="image/svg+xml" href="{{ "assets/logo-favicon.svg" | relURL }}">
