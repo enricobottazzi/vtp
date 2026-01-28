@@ -107,6 +107,11 @@ html[data-theme="dark"] {
     --table-row-hover-color: #242b39;
 }
 
+/* Make the logo visible in dark mode (turn it white) */
+html[data-theme="dark"] .logo-image {
+    filter: brightness(0) invert(1);
+}
+
 html[data-theme="dark"] .profile-description code {
     background: #1b2130;
     color: var(--text-color);
