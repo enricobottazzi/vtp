@@ -1,6 +1,6 @@
 ---
-title: "2026 - propositi per l'anno nuovo "
-date: 2026-01-24T10:00:00+01:00
+title: "Propositi per l'anno nuovo "
+date: 2026-01-27T10:00:00+01:00
 draft: false
 ---
 
