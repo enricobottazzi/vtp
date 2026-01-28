@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container homepage-container">
+    <!-- Header with Logo and Navigation (with theme toggle) -->
+    {{ partial "header.html" . }}
+
+    <div class="homepage-centered">
+        <!-- Centered Profile Section -->
+        <div class="profile-section">
+            <div class="profile">
+                <img src="{{ .Site.Params.profilePhoto | default "/images/pfp.jpg" }}" alt="Profile Photo" class="profile-photo">
+            </div>
+            <div class="profile-description">
+                <p> {{ .Site.Params.profileDescription | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." | markdownify }} </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
+

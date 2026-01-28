@@ -32,12 +32,84 @@
 
 .header-logo img,
 .header-logo svg {
-    background-color: #f9dc90;
+    background-color: var(--background-color);
     padding: 10px;
     border-radius: 12px;
     width: 120px;
     height: auto;
     display: inline-block;
+}
+
+/* Theme toggle button (next to "contatti") */
+.theme-toggle {
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    border: 1px solid color-mix(in srgb, var(--text-color) 25%, transparent);
+    border-radius: 999px;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-color);
+    opacity: 0.85;
+    transition: opacity 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.theme-toggle:hover {
+    opacity: 1;
+    background-color: color-mix(in srgb, var(--text-color) 8%, transparent);
+    border-color: color-mix(in srgb, var(--text-color) 35%, transparent);
+}
+
+.theme-toggle:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--links-color) 70%, transparent);
+    outline-offset: 2px;
+}
+
+.theme-toggle__icon {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle__icon svg {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+html[data-theme="dark"] .theme-toggle__icon--sun {
+    display: none;
+}
+
+html:not([data-theme="dark"]) .theme-toggle__icon--moon {
+    display: none;
+}
+
+/* Dark theme palette (overrides the light values defined in head.html) */
+html[data-theme="dark"] {
+    --background-color: #0f1115;
+    --text-color: #e8e8ea;
+    --links-color: #c7b0ff;
+    --writing-card-background: #161a22;
+    --table-header-color: #3a2a52;
+    --table-content-color: #191e28;
+    --table-row-hover-color: #242b39;
+}
+
+html[data-theme="dark"] .profile-description code {
+    background: #1b2130;
+    color: var(--text-color);
 }
 
 /* Blog section: same horizontal position/margin as .posts-list-container and .single-post */
