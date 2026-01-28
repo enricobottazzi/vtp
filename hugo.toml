@@ -38,7 +38,7 @@ Sono Vittorio Ponti, psicologo iscritto all’Ordine degli Psicologi della Lomba
     math = true
 
     # Uncomment if you want to customize the colors
-    # backgroundColor = "#f9dc90"
+    backgroundColor = "#DAD6D6"
     # linksColor = "#805690"
     # textColor = "#333"
     fontFamily = "Lora"
