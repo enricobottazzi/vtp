@@ -28,6 +28,25 @@
         width: 100px;
         height: 100px;
     }
+    .theme-toggle {
+        width: 36px;
+        height: 36px;
+    }
+    .theme-toggle__icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .theme-toggle {
+        width: 32px;
+        height: 32px;
+    }
+    .theme-toggle__icon {
+        width: 16px;
+        height: 16px;
+    }
 }
 
 .header-logo img,
@@ -57,6 +76,7 @@
     color: var(--text-color);
     opacity: 0.85;
     transition: opacity 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+    flex-shrink: 0;
 }
 
 .theme-toggle:hover {

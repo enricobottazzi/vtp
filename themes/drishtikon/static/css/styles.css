@@ -191,7 +191,7 @@ blockquote {
     display: flex;
     gap: 1.5rem;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: flex-end;
 }
 
@@ -220,6 +220,8 @@ blockquote {
     font-size: 24px;
     transition: opacity 0.3s ease;
     text-transform: lowercase;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .homepage-nav-link:hover {
@@ -378,7 +380,20 @@ blockquote {
     gap: 1rem;
   }
   .homepage-nav-links {
-    gap: 1rem;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+  }
+  .homepage-nav-link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .homepage-nav-links {
+    gap: 0.4rem;
+  }
+  .homepage-nav-link {
+    font-size: 16px;
   }
   .logo-image {
     width: 60px;
