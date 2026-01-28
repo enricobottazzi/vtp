@@ -157,3 +157,8 @@ html[data-theme="dark"] .profile-description code {
 .blog-cta-newsletter:hover {
     text-decoration: underline;
 }
+
+/* Justify blog post body text */
+.post-content {
+    text-align: justify;
+}
