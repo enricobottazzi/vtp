@@ -50,10 +50,5 @@ In ambito socio-sanitario ho collaborato con l’ASST di Bergamo Est, nel repart
 ---
 
 ## Lingue parlate
-- Italiano: Madrelingue
-- Spagnolo: C1
-- Inglese: B2
-  
----
 
-*Last updated: January 2026*
+Italiano, Spagnolo, Inglese

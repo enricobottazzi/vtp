@@ -3,13 +3,30 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae | Vittorio Ponti</title>
-    <link rel="icon" href="#ZgotmplZ"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Vittorio Ponti | Cv</title>
+
+    
+    <link rel="icon" type="image/svg+xml" href="/assets/logo-favicon.svg">
+
+    
+    <script>
+      (() => {
+        try {
+          const key = 'theme';
+          const stored = localStorage.getItem(key);
+          const theme = stored ? stored : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.style.colorScheme = theme;
+        } catch (e) {
+          
+        }
+      })();
+    </script>
+
     <link rel="stylesheet" href="/css/styles.css">
     <style>
         :root {
-            --background-color: #f9dc90;
+            --background-color: #DAD6D6;
             --links-color: #805690;
             --text-color: #333;
             --table-header-color: #d46f93;
@@ -57,26 +74,53 @@
   defer
 </script>
     
+    <link rel="stylesheet" href="/css/custom.css">
+    <script src="/js/theme-toggle.js" defer></script>
 </head>
 
+
+
 <body>
-<nav class="top-nav">
-        <a href="/" class="site-title">
-            Vittorio Ponti
-        </a>
-    <div class="nav-links">
+
+<div class="container header-container">
+    <header class="homepage-header">
+    <div class="homepage-logo">
         
-        <a href="/cv/" class="">
-        cv
-        </a>
-        
-        <a href="/contatti/" class="">
-        contatti
-        </a>
+            <a href="/" class="logo-link">
+                <img src="/assets/logo.svg" alt="Vittorio Ponti" class="logo-image">
+            </a>
         
     </div>
+    <nav class="homepage-nav">
+        <div class="homepage-nav-links">
+            <a href="/blog/" class="homepage-nav-link ">blog</a>
+            <a href="/cv/" class="homepage-nav-link active">cv</a>
+            <a href="/contatti/" class="homepage-nav-link ">contatti</a>
+            <button
+                class="theme-toggle"
+                type="button"
+                data-theme-toggle
+                aria-pressed="false"
+                aria-label="Switch to dark mode"
+                title="Dark mode"
+            >
+                <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" focusable="false">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+                    </svg>
+                </span>
+                <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" focusable="false">
+                        <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path>
+                    </svg>
+                </span>
+            </button>
+        </div>
+    </nav>
+</header>
 
-</nav>
+</div>
 
 
 <main>
@@ -93,90 +137,40 @@
         <div class="post-content">
             
             
-            <h2 id="professional-summary">Professional Summary</h2>
-<p>Add a brief professional summary here. This section should highlight your key skills, experience, and career objectives in 2-3 sentences.</p>
+            <h2 id="profilo-professionale">Profilo professionale</h2>
+<p>Faccio lo psicologo; ho esperienza in ambito clinico e organizzativo. Mi occupo di stress, ansia e difficoltà relazionali, accompagnando le persone nella comprensione delle dinamiche che vivono nei diversi contesti della loro vita. Il mio lavoro si fonda sul dialogo come strumento di cambiamento.</p>
 <hr>
-<h2 id="education">Education</h2>
-<h3 id="degree-name">Degree Name</h3>
-<p>**Institution Name
-<em>Location</em> | <em>Start Date - End Date</em></p>
-<ul>
-<li>Relevant coursework or achievements</li>
-<li>GPA or honors</li>
-</ul>
-<h3 id="degree-name-1">Degree Name</h3>
-<p><strong>Institution Name</strong><br>
-<em>Location</em> | <em>Start Date - End Date</em></p>
-<ul>
-<li>Relevant coursework or achievements</li>
-</ul>
+<h2 id="istruzione">Istruzione</h2>
+<h3 id="scuola-di-psicoterapia">Scuola di Psicoterapia</h3>
+<p><strong>SPSD - Scuola di Psicoterapia Sistemico-Dialogica</strong><br>
+<em>Bergamo</em> | <em>gen 2025 - in corso</em></p>
+<h3 id="laurea-magistrale-in-psicologia">Laurea Magistrale in Psicologia</h3>
+<p><strong>Università degli studi di Trento</strong><br>
+<em>Trento</em> | <em>set 2019 - dic 2021</em></p>
+<h3 id="laurea-triennale-in-scienze-e-tecniche-psicologiche">Laurea Triennale in Scienze e Tecniche Psicologiche</h3>
+<p><strong>Università degli studi di Bergamo</strong><br>
+<em>Bergamo</em> | <em>set 2016 - set 2019</em></p>
 <hr>
-<h2 id="professional-experience">Professional Experience</h2>
-<h3 id="job-title">Job Title</h3>
-<p><strong>Company Name</strong><br>
-<em>Location</em> | <em>Start Date - End Date</em></p>
-<ul>
-<li>Key responsibility or achievement</li>
-<li>Key responsibility or achievement</li>
-<li>Key responsibility or achievement</li>
-</ul>
-<h3 id="job-title-1">Job Title</h3>
-<p><strong>Company Name</strong><br>
-<em>Location</em> | <em>Start Date - End Date</em></p>
-<ul>
-<li>Key responsibility or achievement</li>
-<li>Key responsibility or achievement</li>
-</ul>
+<h2 id="esperienze-professionali">Esperienze professionali</h2>
+<h3 id="psicologo-clinico">Psicologo Clinico</h3>
+<p><strong>Autonomo</strong><br>
+<em>Bergamo</em> | <em>ott 2024 - in corso</em></p>
+<p>In ambito clinico svolgo incontri di supporto psicologico individuali, di coppia e familiari sia presso uno studio privato sia presso il centro clinico Methodo Medical Center. Mi occupo principalmente di disturbi d&rsquo;ansia, dell&rsquo;umore, di personalità e di identità. Inoltre ho avuto modo di trattare temi come disturbi alimentari, dipendenze tecnologiche, da sostanze e dipendenza affettiva</p>
+<h3 id="human-consultant">Human Consultant</h3>
+<p><strong>Progrexus srl</strong><br>
+<em>Bergamo</em> | <em>lug 2022 - in corso</em></p>
+<p>Mi occupo di supporto psicologico individuale e di gruppo, facilitando processi di cambiamento e sviluppo personale attraverso un approccio sistemico. Lavoro sulla gestione dello stress, il potenziamento delle risorse e il miglioramento delle dinamiche relazionali nei diversi contesti di vita</p>
+<h3 id="psicologo-clinico-1">Psicologo Clinico</h3>
+<p><strong>ASST  Bergamo Est</strong><br>
+<em>Bergamo</em> | <em>gen 2025 - dic 2025</em></p>
+<p>In ambito socio-sanitario ho collaborato con l’ASST di Bergamo Est, nel reparto di oncologia, svolgendo colloqui psicologici con pazienti e caregiver, offrendo uno spazio di ascolto e supporto e accompagnando le persone nell’affrontare l’impatto emotivo della malattia</p>
 <hr>
-<h2 id="skills">Skills</h2>
-<h3 id="technical-skills">Technical Skills</h3>
+<h2 id="lingue-parlate">Lingue parlate</h2>
 <ul>
-<li>Skill 1</li>
-<li>Skill 2</li>
-<li>Skill 3</li>
-<li>Skill 4</li>
+<li>Italiano: Madrelingue</li>
+<li>Spagnolo: C1</li>
+<li>Inglese: B2</li>
 </ul>
-<h3 id="soft-skills">Soft Skills</h3>
-<ul>
-<li>Skill 1</li>
-<li>Skill 2</li>
-<li>Skill 3</li>
-</ul>
-<h3 id="languages">Languages</h3>
-<ul>
-<li>Language 1: Proficiency level</li>
-<li>Language 2: Proficiency level</li>
-</ul>
-<hr>
-<h2 id="projects">Projects</h2>
-<h3 id="project-name">Project Name</h3>
-<p><em>Date</em> | <a href="https://github.com/">GitHub Link</a> | <a href="https://example.com">Live Demo</a></p>
-<p>Brief description of the project. Technologies used: Technology 1, Technology 2, Technology 3</p>
-<h3 id="project-name-1">Project Name</h3>
-<p><em>Date</em> | <a href="https://github.com/">GitHub Link</a></p>
-<p>Brief description of the project. Technologies used: Technology 1, Technology 2</p>
-<hr>
-<h2 id="certifications">Certifications</h2>
-<ul>
-<li><strong>Certification Name</strong> - <em>Issuing Organization</em> | <em>Date</em></li>
-<li><strong>Certification Name</strong> - <em>Issuing Organization</em> | <em>Date</em></li>
-</ul>
-<hr>
-<h2 id="publications">Publications</h2>
-<ul>
-<li><strong>Title of Publication</strong><br>
-<em>Authors</em> | <em>Journal/Conference</em> | <em>Year</em><br>
-<a href="https://example.com">Link</a></li>
-</ul>
-<hr>
-<h2 id="awards--honors">Awards &amp; Honors</h2>
-<ul>
-<li>Award Name - <em>Organization</em> | <em>Year</em></li>
-<li>Award Name - <em>Organization</em> | <em>Year</em></li>
-</ul>
-<hr>
-<h2 id="additional-information">Additional Information</h2>
-<p>Any additional relevant information such as volunteer work, memberships, or other activities.</p>
 <hr>
 <p><em>Last updated: January 2026</em></p>
 
@@ -188,17 +182,9 @@
 
 <footer>
     <div class="site-footer">
-        <div class = "footer-links" >
-            <a href="mailto:vittorio.ponti34@gmail.com">
-                <span class="icon email-icon"></span>
-            </a>
-            <a href="https://www.linkedin.com/">
-                <span class="icon linkedin-icon"></span>
-            </a>
-
-        </div>
     </div>
 </footer>
+
 </body>
 
 

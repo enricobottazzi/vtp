@@ -37,7 +37,7 @@ mi puoi trovare anche qui:
 
 ---
 
-## [Prenota un incontro](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti/booking/places?specialityId=5954&telehealth=false&bookingFunnelSource=profile)
+### [Prenota un appuntamento](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti/booking/places?specialityId=5954&telehealth=false&bookingFunnelSource=profile)
 
 ---
 

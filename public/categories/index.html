@@ -3,13 +3,30 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categories | Vittorio Ponti</title>
-    <link rel="icon" href="#ZgotmplZ"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Vittorio Ponti | Categories</title>
+
+    
+    <link rel="icon" type="image/svg+xml" href="/assets/logo-favicon.svg">
+
+    
+    <script>
+      (() => {
+        try {
+          const key = 'theme';
+          const stored = localStorage.getItem(key);
+          const theme = stored ? stored : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.style.colorScheme = theme;
+        } catch (e) {
+          
+        }
+      })();
+    </script>
+
     <link rel="stylesheet" href="/css/styles.css">
     <style>
         :root {
-            --background-color: #f9dc90;
+            --background-color: #DAD6D6;
             --links-color: #805690;
             --text-color: #333;
             --table-header-color: #d46f93;
@@ -57,48 +74,92 @@
   defer
 </script>
     
+    <link rel="stylesheet" href="/css/custom.css">
+    <script src="/js/theme-toggle.js" defer></script>
 </head>
 
+
+
 <body>
-<nav class="top-nav">
-        <a href="/" class="site-title">
-            Vittorio Ponti
-        </a>
-    <div class="nav-links">
+
+<div class="container header-container">
+    <header class="homepage-header">
+    <div class="homepage-logo">
         
-        <a href="/cv/" class="">
-        cv
-        </a>
-        
-        <a href="/contatti/" class="">
-        contatti
-        </a>
+            <a href="/" class="logo-link">
+                <img src="/assets/logo.svg" alt="Vittorio Ponti" class="logo-image">
+            </a>
         
     </div>
+    <nav class="homepage-nav">
+        <div class="homepage-nav-links">
+            <a href="/blog/" class="homepage-nav-link ">blog</a>
+            <a href="/cv/" class="homepage-nav-link ">cv</a>
+            <a href="/contatti/" class="homepage-nav-link ">contatti</a>
+            <button
+                class="theme-toggle"
+                type="button"
+                data-theme-toggle
+                aria-pressed="false"
+                aria-label="Switch to dark mode"
+                title="Dark mode"
+            >
+                <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" focusable="false">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+                    </svg>
+                </span>
+                <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="img" focusable="false">
+                        <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path>
+                    </svg>
+                </span>
+            </button>
+        </div>
+    </nav>
+</header>
 
-</nav>
+</div>
 
 
 <main>
     
-<div class="posts-list-container">
-    
-    
-    <div class="year-group">
-        <h1>2026</h1>
-        <ul class="post-list">
-            
-            <li class="post-item">
-                <span>
-                    <a class ="post-title", href="/blog/my-first-blog-post/">My First Blog Post</a>
-                </span>
-                <span class="dot-leader"></span>
-                <span class="post-date">15.01</span>
-            </li>
-            
-        </ul>
+<div class="container">
+    <div class="posts-list-container">
+        
+        
+        <div class="year-group">
+            <h1>2026</h1>
+            <ul class="post-list">
+                
+                <li class="post-item">
+                    <span>
+                        <a class ="post-title", href="/blog/propositi-per-lanno-nuovo/">Propositi per l&#39;anno nuovo </a>
+                    </span>
+                    <span class="dot-leader"></span>
+                    <span class="post-date">27.01</span>
+                </li>
+                
+                <li class="post-item">
+                    <span>
+                        <a class ="post-title", href="/blog/chi-sono/">Chi sono</a>
+                    </span>
+                    <span class="dot-leader"></span>
+                    <span class="post-date">24.01</span>
+                </li>
+                
+            </ul>
+        </div>
+        
     </div>
-    
+
+    <div class="blog-cta-wrapper">
+        <hr class="blog-cta-hr">
+        <div class="blog-cta-section">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScg72jgkJyt8KhYz4PIjFiXy5N2n9O_ApDLuiLNS9czbc9SfQ/viewform?usp=publish-editor" class="blog-cta-newsletter" target="_blank" rel="noopener noreferrer">Iscriviti alla newsletter</a>
+        </div>
+    </div>
 </div>
 
 
@@ -107,17 +168,9 @@
 
 <footer>
     <div class="site-footer">
-        <div class = "footer-links" >
-            <a href="mailto:vittorio.ponti34@gmail.com">
-                <span class="icon email-icon"></span>
-            </a>
-            <a href="https://www.linkedin.com/">
-                <span class="icon linkedin-icon"></span>
-            </a>
-
-        </div>
     </div>
 </footer>
+
 </body>
 
 

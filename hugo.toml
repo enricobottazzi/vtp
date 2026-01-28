@@ -33,12 +33,13 @@ Sono Vittorio Ponti, psicologo iscritto all’Ordine degli Psicologi della Lomba
 
 
     profileUpdates = """"""
+    bookingUrl = "https://www.doctolib.it/psicologo/bergamo/vittorio-ponti"
     email = "mailto:vittorio.ponti34@gmail.com"
     linkedin = "https://www.linkedin.com/"
     math = true
 
     # Uncomment if you want to customize the colors
-    # backgroundColor = "#f9dc90"
+    backgroundColor = "#DAD6D6"
     # linksColor = "#805690"
     # textColor = "#333"
     fontFamily = "Lora"

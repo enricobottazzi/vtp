@@ -1,0 +1,168 @@
+/* Top-left logo (homepage and inner pages header) */
+.homepage-logo .logo-link.site-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.homepage-logo .logo-link.site-title:hover {
+    color: inherit;
+}
+
+.logo-image {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.site-title-text {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+@media (max-width: 768px) {
+    .logo-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.header-logo img,
+.header-logo svg {
+    background-color: var(--background-color);
+    padding: 10px;
+    border-radius: 12px;
+    width: 120px;
+    height: auto;
+    display: inline-block;
+}
+
+/* Theme toggle button (next to "contatti") */
+.theme-toggle {
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    border: 1px solid color-mix(in srgb, var(--text-color) 25%, transparent);
+    border-radius: 999px;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-color);
+    opacity: 0.85;
+    transition: opacity 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.theme-toggle:hover {
+    opacity: 1;
+    background-color: color-mix(in srgb, var(--text-color) 8%, transparent);
+    border-color: color-mix(in srgb, var(--text-color) 35%, transparent);
+}
+
+.theme-toggle:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--links-color) 70%, transparent);
+    outline-offset: 2px;
+}
+
+.theme-toggle__icon {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle__icon svg {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+html[data-theme="dark"] .theme-toggle__icon--sun {
+    display: none;
+}
+
+html:not([data-theme="dark"]) .theme-toggle__icon--moon {
+    display: none;
+}
+
+/* Dark theme palette (overrides the light values defined in head.html) */
+html[data-theme="dark"] {
+    --background-color: #0f1115;
+    --text-color: #e8e8ea;
+    --links-color: #c7b0ff;
+    --writing-card-background: #161a22;
+    --table-header-color: #3a2a52;
+    --table-content-color: #191e28;
+    --table-row-hover-color: #242b39;
+}
+
+/* Make the logo visible in dark mode (turn it white) */
+html[data-theme="dark"] .logo-image {
+    filter: brightness(0) invert(1);
+}
+
+html[data-theme="dark"] .profile-description code {
+    background: #1b2130;
+    color: var(--text-color);
+}
+
+/* Blog section: same horizontal position/margin as .posts-list-container and .single-post */
+.blog-cta-wrapper {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .blog-cta-wrapper {
+        max-width: 85%;
+    }
+}
+
+/* Shorter line, same style as post-content hr */
+.blog-cta-hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-top: 1px solid var(--text-color);
+    opacity: 0.3;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-cta-section {
+    text-align: center;
+}
+
+.blog-cta-newsletter {
+    display: inline-block;
+    margin: 20px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--links-color, #805690);
+    text-decoration: none;
+}
+
+.blog-cta-newsletter:hover {
+    text-decoration: underline;
+}
+
+/* Justify blog post body text */
+.post-content {
+    text-align: justify;
+}
+
+.post-content p {
+    text-align: justify !important;
+}

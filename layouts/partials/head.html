@@ -1,0 +1,58 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{- /* Browser tab title: "Site | Page" with custom labels for key pages */ -}}
+    {{- $siteTitle := .Site.Title -}}
+    {{- $pageTitle := .Title -}}
+    {{- if .IsHome -}}
+      {{- $pageTitle = "Home" -}}
+    {{- else if eq .RelPermalink "/cv/" -}}
+      {{- $pageTitle = "Cv" -}}
+    {{- else if eq .RelPermalink "/contatti/" -}}
+      {{- $pageTitle = "Contatti" -}}
+    {{- else if and .IsSection (eq .Section "posts") -}}
+      {{- $pageTitle = "Blog" -}}
+    {{- end -}}
+    <title>{{ $siteTitle }}{{ with $pageTitle }} | {{ . }}{{ end }}</title>
+
+    <!-- Favicon: use logo with explicit white background for visibility in browser tabs -->
+    <link rel="icon" type="image/svg+xml" href="{{ "assets/logo-favicon.svg" | relURL }}">
+
+    <!-- Set theme early to avoid flash -->
+    <script>
+      (() => {
+        try {
+          const key = 'theme';
+          const stored = localStorage.getItem(key);
+          const theme = stored ? stored : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.style.colorScheme = theme;
+        } catch (e) {
+          // no-op
+        }
+      })();
+    </script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        :root {
+            --background-color: {{ .Site.Params.backgroundColor | default "#f9dc90" }};
+            --links-color: {{ .Site.Params.linksColor | default "#805690" }};
+            --text-color: {{ .Site.Params.textColor | default "#333" }};
+            --table-header-color: {{ .Site.Params.tableHeaderColor | default "#d46f93" }};
+            --table-content-color: {{ .Site.Params.tableContentColor | default "#f89e9d" }};
+            --table-row-hover-color: {{ .Site.Params.tableRowHoverColor | default "#ffbbba" }};
+            --writing-card-background: {{ .Site.Params.writingCardBackground | default "#fdf1cd" }};
+            --font-family: {{ .Site.Params.fontFamily | default "Inter" }};
+        }
+    </style>
+    <!-- Font loading removed - using system font Georgia -->
+
+    {{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
+    {{ end }}
+    <link rel="stylesheet" href="/css/custom.css">
+    <script src="/js/theme-toggle.js" defer></script>
+    <script src="/js/external-links.js" defer></script>
+</head>
+

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vittorio Ponti</title>
-    <link>https://vittorioponti.com/</link>
-    <description>Recent content on Vittorio Ponti</description>
+    <title>Blog on Vittorio Ponti</title>
+    <link>https://vittorioponti.com/blog/</link>
+    <description>Recent content in Blog on Vittorio Ponti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jan 2026 10:00:00 +0100</lastBuildDate><atom:link href="https://vittorioponti.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jan 2026 10:00:00 +0100</lastBuildDate><atom:link href="https://vittorioponti.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Propositi per l&#39;anno nuovo </title>
       <link>https://vittorioponti.com/blog/propositi-per-lanno-nuovo/</link>
@@ -26,28 +26,6 @@ Quindi, quanto riusciamo davvero a portare avanti ciò che ci promettiamo a iniz
       <description>Partiamo dalle basi, le presentazioni!
 Iniziamo - Chi sono Mi chiamo Vittorio Ponti e sono uno psicologo iscritto all’Ordine degli Psicologi della Lombardia. Mi sono laureato in Psicologia presso l’Università di Trento e, successivamente, ho iniziato a lavorare come consulente presso Progrexus srl, ruolo che svolgo tutt’oggi.
 In questo contesto mi occupo di supportare i dipendenti di diverse aziende su tematiche quali la gestione dello stress, la gestione dei conflitti e le dinamiche relazionali disfunzionali.</description>
-    </item>
-    
-    <item>
-      <title>Contatti</title>
-      <link>https://vittorioponti.com/contatti/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vittorioponti.com/contatti/</guid>
-      <description>numero di telefono: 393 9321880 mail: vittorio.ponti34@gmail.com mi puoi trovare anche qui:
-Doctolib: Doctolib LinkedIn: Profilo Linkedin Psicologi Italia: Psicologi Italia Psicologi Online: Psicologi Online Dove ricevo Studio privato Via del Carroccio 6B, Bergamo Methodo Medical Center Via San Giorgio 6N, Bergamo Prenota un incontro Svincolarsi dalle convinzioni, dalle pose, dalle posizioni</description>
-    </item>
-    
-    <item>
-      <title>Curriculum Vitae</title>
-      <link>https://vittorioponti.com/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vittorioponti.com/cv/</guid>
-      <description>Profilo professionale Faccio lo psicologo; ho esperienza in ambito clinico e organizzativo. Mi occupo di stress, ansia e difficoltà relazionali, accompagnando le persone nella comprensione delle dinamiche che vivono nei diversi contesti della loro vita. Il mio lavoro si fonda sul dialogo come strumento di cambiamento.
-Istruzione Scuola di Psicoterapia SPSD - Scuola di Psicoterapia Sistemico-Dialogica
-Bergamo | gen 2025 - in corso
-Laurea Magistrale in Psicologia Università degli studi di Trento</description>
     </item>
     
   </channel>

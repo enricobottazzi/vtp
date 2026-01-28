@@ -5,7 +5,7 @@
             <h1>{{ .Title }}</h1>
             {{ if not .Date.IsZero }}
             <div class="post-meta">
-                <time>{{ .Date.Format "January 2, 2006" }}</time>
+                <time>{{ partial "date-italian.html" .Date }}</time>
                 {{ with .Params.tags }}
                 <span class="tags">| Tags: {{ delimit . ", " }}</span>
                 {{ end }}
