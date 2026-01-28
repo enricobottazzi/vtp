@@ -2,25 +2,27 @@
 title: ""
 draft: false
 ---
-- **numero di telefono:** 393 9321880
-- **mail**: vittorio.ponti34@gmail.com
 
- ---
- 
+Contatti principali:
+
+- **Telefono:** 393 9321880
+- **Mail**: vittorio.ponti34@gmail.com
+
+--- 
+
 Mi puoi trovare anche qui:
 
-- **Doctolib:** [Doctolib](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti)
-- **LinkedIn:** [Profilo Linkedin](https://www.linkedin.com/in/vittorio-ponti-41857b188/)
-- **Psicologi Italia:** [Psicologi Italia](https://www.psicologi-italia.it/psicologo/vittorio-ponti.html)
-- **Psicologi Online:** [Psicologi Online](https://www.psicologionline.net/psicologi-psicoterapeuti/94616-vittorio-ponti)
+- [**Doctolib**](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti)
+- [**LinkedIn**](https://www.linkedin.com/in/vittorio-ponti-41857b188/)
+- [**Psicologi Italia**](https://www.psicologi-italia.it/psicologo/vittorio-ponti.html)
+- [**Psicologi Online**](https://www.psicologionline.net/psicologi-psicoterapeuti/94616-vittorio-ponti)
 
 ---
 
-## Dove ricevo
+### Dove ricevo
 
 - #### Studio privato | *Via del Carroccio 6B, Bergamo*
 - #### Methodo Medical Center | *Via San Giorgio 6N, Bergamo*
-
 
 ---
 
