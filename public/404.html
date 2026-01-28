@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 Page not found | Vittorio Ponti</title>
-    <link rel="icon" href="#ZgotmplZ"></link>
+    <link rel="icon" href="/assets/logo.svg"></link>
     <link rel="stylesheet" href="/css/styles.css">
     <style>
         :root {
-            --background-color: #f9dc90;
+            --background-color: #DAD6D6;
             --links-color: #805690;
             --text-color: #333;
             --table-header-color: #d46f93;
@@ -57,26 +57,33 @@
   defer
 </script>
     
+<link rel="stylesheet" href="/css/custom.css">
+
+
 </head>
 
+
 <body>
-<nav class="top-nav">
-        <a href="/" class="site-title">
-            Vittorio Ponti
-        </a>
-    <div class="nav-links">
+
+<div class="container header-container">
+    <header class="homepage-header">
+    <div class="homepage-logo">
         
-        <a href="/cv/" class="">
-        cv
-        </a>
-        
-        <a href="/contatti/" class="">
-        contatti
-        </a>
+            <a href="/" class="logo-link">
+                <img src="/assets/logo.svg" alt="Vittorio Ponti" class="logo-image">
+            </a>
         
     </div>
+    <nav class="homepage-nav">
+        <div class="homepage-nav-links">
+            <a href="/posts/" class="homepage-nav-link ">blog</a>
+            <a href="/cv/" class="homepage-nav-link ">cv</a>
+            <a href="/contatti/" class="homepage-nav-link ">contatti</a>
+        </div>
+    </nav>
+</header>
 
-</nav>
+</div>
 
 
 <main>
@@ -90,17 +97,9 @@
 
 <footer>
     <div class="site-footer">
-        <div class = "footer-links" >
-            <a href="mailto:vittorio.ponti34@gmail.com">
-                <span class="icon email-icon"></span>
-            </a>
-            <a href="https://www.linkedin.com/">
-                <span class="icon linkedin-icon"></span>
-            </a>
-
-        </div>
     </div>
 </footer>
+
 </body>
 
 

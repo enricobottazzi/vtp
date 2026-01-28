@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="container">
+    <div class="posts-list-container">
+        {{ $posts := where site.RegularPages "Section" "posts" }}
+        {{ range ($posts.ByDate.Reverse).GroupByDate "2006" }}
+        <div class="year-group">
+            <h1>{{ .Key }}</h1>
+            <ul class="post-list">
+                {{ range .Pages }}
+                <li class="post-item">
+                    <span>
+                        <a class ="post-title", href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </span>
+                    <span class="dot-leader"></span>
+                    <span class="post-date">{{ .Date.Format "02.01" }}</span>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+
+    <div class="blog-cta-wrapper">
+        <hr class="blog-cta-hr">
+        <div class="blog-cta-section">
+            <a href="#" class="blog-cta-newsletter">Iscriviti alla newsletter</a>
+        </div>
+    </div>
+</div>
+
+
+{{ end }}

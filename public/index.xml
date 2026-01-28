@@ -6,17 +6,26 @@
     <description>Recent content on Vittorio Ponti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jan 2026 10:00:00 +0100</lastBuildDate><atom:link href="https://vittorioponti.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jan 2026 10:00:00 +0100</lastBuildDate><atom:link href="https://vittorioponti.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Blog Post</title>
-      <link>https://vittorioponti.com/blog/my-first-blog-post/</link>
-      <pubDate>Thu, 15 Jan 2026 10:00:00 +0100</pubDate>
+      <title>2026 - propositi per l&#39;anno nuovo </title>
+      <link>https://vittorioponti.com/blog/2026-propositi-per-lanno-nuovo/</link>
+      <pubDate>Sat, 24 Jan 2026 10:00:00 +0100</pubDate>
       
-      <guid>https://vittorioponti.com/blog/my-first-blog-post/</guid>
-      <description>This is my first blog post on this website! I&amp;rsquo;m excited to share my thoughts and experiences with you.
-Getting Started Creating a blog has been an interesting journey. There are so many platforms and tools available, but I decided to go with Hugo for its simplicity and speed.
-Why Hugo? Hugo is a static site generator that offers:
-Speed: It&amp;rsquo;s incredibly fast at building sites Simplicity: Easy to use and configure Flexibility: Highly customizable themes and layouts Markdown Support: Write content in Markdown, which is simple and clean What&amp;rsquo;s Next?</description>
+      <guid>https://vittorioponti.com/blog/2026-propositi-per-lanno-nuovo/</guid>
+      <description>Con l’inizio di un nuovo anno la tendenza è fare nuovi propositi: in fondo, chi non li fa? Pensavo però che alcune cose - come le relazioni, il fluire degli eventi o i cambiamenti improvvisi - non siano prevedibili e rendano le nostre giornate, le settimane e, alla fine, l’intero anno non del tutto controllabili o pianificabili.
+Quindi, quanto riusciamo davvero a portare avanti ciò che ci promettiamo a inizio anno?</description>
+    </item>
+    
+    <item>
+      <title>Chi sono</title>
+      <link>https://vittorioponti.com/blog/chi-sono/</link>
+      <pubDate>Sat, 24 Jan 2026 10:00:00 +0100</pubDate>
+      
+      <guid>https://vittorioponti.com/blog/chi-sono/</guid>
+      <description>Partiamo dalle basi, le presentazioni!
+Iniziamo - Chi sono Mi chiamo Vittorio Ponti e sono uno psicologo iscritto all’Ordine degli Psicologi della Lombardia. Mi sono laureato in Psicologia presso l’Università di Trento e, successivamente, ho iniziato a lavorare come consulente presso Progrexus srl, ruolo che svolgo tutt’oggi.
+In questo contesto mi occupo di supportare i dipendenti di diverse aziende su tematiche quali la gestione dello stress, la gestione dei conflitti e le dinamiche relazionali disfunzionali.</description>
     </item>
     
     <item>
@@ -25,13 +34,8 @@ Speed: It&amp;rsquo;s incredibly fast at building sites Simplicity: Easy to use 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vittorioponti.com/contatti/</guid>
-      <description>Feel free to reach out if you&amp;rsquo;d like to connect, collaborate, or just say hello!
-Contact Information Email: vittorio.ponti34@gmail.com
-LinkedIn: Your LinkedIn Profile
-Website: vittorioponti.com
-Social Media You can also find me on:
-GitHub: Your GitHub Profile LinkedIn: Your LinkedIn Profile Other Platform: Your Profile Link Location Add your location or timezone information here if you&amp;rsquo;d like
-Response Time I typically respond to emails within 24-48 hours. For urgent matters, please indicate so in your message.</description>
+      <description>numero di telefono: 393 9321880 mail: vittorio.ponti34@gmail.com mi puoi trovare anche qui:
+Doctolib: Doctolib LinkedIn: Profilo Linkedin Psicologi Italia: Psicologi Italia Psicologi Online: Psicologi Online Dove ricevo Studio privato Via del Carroccio 6B, Bergamo Methodo Medical Center Via San Giorgio 6N, Bergamo Prenota un incontro Svincolarsi dalle convinzioni, dalle pose, dalle posizioni</description>
     </item>
     
     <item>
@@ -40,13 +44,10 @@ Response Time I typically respond to emails within 24-48 hours. For urgent matte
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vittorioponti.com/cv/</guid>
-      <description>Professional Summary Add a brief professional summary here. This section should highlight your key skills, experience, and career objectives in 2-3 sentences.
-Education Degree Name **Institution Name Location | Start Date - End Date
-Relevant coursework or achievements GPA or honors Degree Name Institution Name
-Location | Start Date - End Date
-Relevant coursework or achievements Professional Experience Job Title Company Name
-Location | Start Date - End Date
-Key responsibility or achievement Key responsibility or achievement Key responsibility or achievement Job Title Company Name</description>
+      <description>Profilo professionale Faccio lo psicologo; ho esperienza in ambito clinico e organizzativo. Mi occupo di stress, ansia e difficoltà relazionali, accompagnando le persone nella comprensione delle dinamiche che vivono nei diversi contesti della loro vita. Il mio lavoro si fonda sul dialogo come strumento di cambiamento.
+Istruzione Scuola di Psicoterapia SPSD - Scuola di Psicoterapia Sistemico-Dialogica
+Bergamo | gen 2025 - in corso
+Laurea Magistrale in Psicologia Università degli studi di Trento</description>
     </item>
     
   </channel>

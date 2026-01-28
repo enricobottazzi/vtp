@@ -1,0 +1,9 @@
+/* Selettore: tutti i <img> dentro l’header-logo */
+.header-logo img {
+    background-color: #f9dc90;  /* giallo */
+    padding: 10px;               /* spazio intorno */
+    border-radius: 12px;         /* angoli arrotondati */
+    width: 120px;                /* più grande */
+    height: auto;                /* proporzioni corrette */
+    display: inline-block;
+}
