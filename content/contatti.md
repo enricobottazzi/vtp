@@ -1,5 +1,5 @@
 ---
-title: "Contatti"
+title: ""
 draft: false
 ---
 - **numero di telefono:** 393 9321880
@@ -24,7 +24,7 @@ Mi puoi trovare anche qui:
 
 ---
 
-## [Prenota un incontro](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti/booking/places?specialityId=5954&telehealth=false&bookingFunnelSource=profile)
+### [Prenota un incontro](https://www.doctolib.it/psicologo/bergamo/vittorio-ponti/booking/places?specialityId=5954&telehealth=false&bookingFunnelSource=profile)
 
 ---
 
