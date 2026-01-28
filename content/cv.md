@@ -1,11 +1,9 @@
 ---
-title: "Curriculum Vitae"
+title: ""
 draft: false
 ---
 
-## Profilo professionale 
-
-Faccio lo psicologo; ho esperienza in ambito clinico e organizzativo. Mi occupo di stress, ansia e difficoltà relazionali, accompagnando le persone nella comprensione delle dinamiche che vivono nei diversi contesti della loro vita. Il mio lavoro si fonda sul dialogo come strumento di cambiamento.
+Faccio lo psicologo; ho esperienza in ambito clinico e organizzativo. Mi occupo di stress, ansia e difficoltà relazionali, accompagnando le persone nella comprensione delle dinamiche che vivono nei diversi contesti della loro vita. Il mio lavoro si fonda sul dialogo come strumento di cambiamento. Parlo italiano, spagnolo e inglese.
 
 ---
 
@@ -46,9 +44,3 @@ Mi occupo di supporto psicologico individuale e di gruppo, facilitando processi 
 *Bergamo* | *gen 2025 - dic 2025*
 
 In ambito socio-sanitario ho collaborato con l’ASST di Bergamo Est, nel reparto di oncologia, svolgendo colloqui psicologici con pazienti e caregiver, offrendo uno spazio di ascolto e supporto e accompagnando le persone nell’affrontare l’impatto emotivo della malattia
-
----
-
-## Lingue parlate
-
-Italiano, Spagnolo, Inglese
