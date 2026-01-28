@@ -162,3 +162,28 @@ html[data-theme="dark"] .profile-description code {
 .post-content {
     text-align: justify;
 }
+
+/* Mobile blog post layout: keep title and date on same line */
+@media (max-width: 768px) {
+    .post-item {
+        display: flex !important;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0.5rem;
+    }
+
+    .post-title {
+        display: inline !important;
+        margin-bottom: 0 !important;
+    }
+
+    .post-date {
+        display: inline !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .dot-leader {
+        display: none !important;
+    }
+}
