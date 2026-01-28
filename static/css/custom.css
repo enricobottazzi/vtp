@@ -1,8 +1,26 @@
 /* Top-left logo (homepage and inner pages header) */
+.homepage-logo .logo-link.site-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.homepage-logo .logo-link.site-title:hover {
+    color: inherit;
+}
+
 .logo-image {
     width: 140px;
     height: 140px;
     object-fit: contain;
+    flex-shrink: 0;
+}
+
+.site-title-text {
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 @media (max-width: 768px) {
