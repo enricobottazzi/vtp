@@ -37,4 +37,4 @@ Deutscher, Guy. *La lingua colora il mondo. Come le parole influenzano il nostro
 
 ---
 
-*Tra la partenza e il traguardo, nel mezzo c'è tutto il resto e tutto il resto è giorno dopo giorno e giorno dopo giorno è silenziosamente costruire*
+*Tra la partenza e il traguardo, nel mezzo c'è tutto il resto e tutto il resto è giorno dopo giorno e giorno dopo giorno è, silenziosamente, costruire*
