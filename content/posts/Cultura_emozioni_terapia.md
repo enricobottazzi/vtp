@@ -27,6 +27,7 @@ Forse è proprio lì che inizia il lavoro terapeutico.
 
 
 ## Bibliografia e sitografia
+
 Deutscher, Guy. *La lingua colora il mondo. Come le parole influenzano il nostro modo di guardare la realtà**. Torino: Bollati Boringhieri, 2011.
 *https://it.babbel.com/it/magazine/emozioni-intraducibili*
 *https://www.treccani.it/vocabolario/neo-schadenfreude_(Neologismi)/*
