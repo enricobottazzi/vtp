@@ -29,7 +29,7 @@ Faccio lo psicologo; ho esperienza in ambito clinico e organizzativo. Mi occupo 
 
 ### Psicologo Clinico
 **Autonomo**  
-*Bergamo* | *ott 2024 - in corso*
+*Bergamo* | *ott 2025 - in corso*
 
 In ambito clinico svolgo incontri di supporto psicologico individuali, di coppia e familiari sia presso uno studio privato sia presso il centro clinico Methodo Medical Center. Mi occupo principalmente di disturbi d'ansia, dell'umore, di personalità e di identità. Inoltre ho avuto modo di trattare temi come disturbi alimentari, dipendenze tecnologiche, da sostanze e dipendenza affettiva
 
