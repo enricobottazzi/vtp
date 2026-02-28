@@ -25,9 +25,13 @@ Quanto ci sentiamo compresi nel rifiuto? Quanto comprendiamo l’altro? Quanto c
 ## Bibliografia e sitografia
 
 https://www.spiweb.it/la-cura/gli-incel-uomini-che-odiano-le-donne-riflessioni-sulle-nuove-fragilita-maschili-r-valdre/
+
 https://bazawiedzy.umcs.pl/info/article/UMCS7830935077c9408f9f1ef0ca4b10f85b/
+
 https://asana.com/it/resources/pareto-principle-80-20-rule
+
 https://www.museefabre.fr/lange-dechu
+
 https://www.internazionale.it/reportage/annalisa-camilli/2025/04/15/incel-italia
 
 
