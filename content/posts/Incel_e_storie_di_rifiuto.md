@@ -21,6 +21,15 @@ Cosa hanno in comune queste tre storie?
 Sono storie di rifiuto e di emozioni: rabbia, tristezza, vergogna e violenza. In terapia non possiamo non tenerle in considerazione per capire come la persona si posiziona all’interno del suo contesto. Comprendere il funzionamento emotivo non significa legittimare l’odio o la violenza, ma provare a intercettarne le radici  elaborandole e trovando nuovi significati. 
 Quanto ci sentiamo compresi nel rifiuto? Quanto comprendiamo l’altro? Quanto ci permettiamo di essere rifiutati? 
 
+## Bibliografia e sitografia
+
+https://www.spiweb.it/la-cura/gli-incel-uomini-che-odiano-le-donne-riflessioni-sulle-nuove-fragilita-maschili-r-valdre/
+https://bazawiedzy.umcs.pl/info/article/UMCS7830935077c9408f9f1ef0ca4b10f85b/
+https://asana.com/it/resources/pareto-principle-80-20-rule
+https://www.museefabre.fr/lange-dechu
+https://www.internazionale.it/reportage/annalisa-camilli/2025/04/15/incel-italia
+
+
 ---
 
-*Tra la partenza e il traguardo, nel mezzo c'è tutto il resto e tutto il resto è giorno dopo giorno e giorno dopo giorno è, silenziosamente, costruire*
+*Lascio che le cose mi portino altrove, non importa dove*
