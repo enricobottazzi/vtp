@@ -37,4 +37,4 @@ https://www.internazionale.it/reportage/annalisa-camilli/2025/04/15/incel-italia
 
 ---
 
-*Lascio che le cose mi portino altrove, non importa dove*
+*L'arte di difendermi. E cosi ho vissuto. Quasi rotolandomi. Per non dover ammettere. D'aver perduto*
