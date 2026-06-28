@@ -23,3 +23,8 @@ E allora forse la domanda finale non è se l'IA ci sostituirà, ma quanto è uma
 ## Bibliografia e sitografia
 
 non c'è 
+
+---
+
+*Are we human or are we dancer?*
+
