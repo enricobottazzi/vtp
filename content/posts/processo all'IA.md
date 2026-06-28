@@ -22,4 +22,4 @@ E allora forse la domanda finale non è se l'IA ci sostituirà, ma che cosa rend
 
 ## Bibliografia e sitografia
 
-
+non c'è 
